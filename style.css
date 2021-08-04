@@ -1,0 +1,200 @@
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(media/aaron-burden-UIib0bAvWfs-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.9;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+
+}
+#navbar ul{
+    display: flex;
+    margin: 0px;
+    list-style: none;
+    
+}
+#navbar li{
+    
+   margin: 10px;
+   
+}
+#navbar ul li a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#navbar::before{
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    /* opacity: 0.9; */
+}
+#navbar ul li a{
+    background-color: black;
+    opacity: 0.8;
+    text-decoration: none;
+    border: 3px solid black;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    /* font-style: ; */
+    font-weight: bold;
+}
+#head{
+    display: block;
+    opacity: 0.8;
+    color: rgb(0, 255, 213);
+    position:relative;
+    /* top:5px; */
+    left:34%;
+    font-size: 40px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: black;
+    animation-name: sayan;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+   
+}
+ @keyframes sayan{ 
+    /* 0%{ display: block;
+        width: 50px;
+        font-size: 0px;
+        height: 40px;
+    }
+    25%{
+        display: block;
+        width: 100px;
+        font-size: 7px ;
+        height: 40px;
+    }
+    75%{ display: block;
+        width: 300px;
+        font-size: 25px;
+        height: 40px;
+    }
+    100%{ display: block;
+        width: 420px;
+        font-size: 40px;
+        height: 40px;
+    } */
+    from{
+        display: block;
+        width: 100px;
+        font-size: 10px;
+        height: 40px;
+    }
+    to{
+        display: block;
+        width: 400px;
+        font-size: 40px;
+        height: 40px;
+    }
+} 
+#tabl{
+    position: relative;
+    /* top: 0px; */
+    display: block;
+    
+}
+table,tr,td,th{
+    border:2px solid black;
+    padding: 8.5px;
+}
+td{
+    background-color: grey;
+    font-weight:bolder;
+    font-size: large;
+    opacity: 0.9;
+    color: #FF0000;
+}
+td a{
+    text-decoration:none;
+    cursor: pointer;
+    color: #39FF14;
+    
+}
+.day{
+    color:white;
+    background-color: black;
+}
+th{
+    background-color: black;
+    color: white;
+}
+td:hover{
+    background-color: black;
+}
+#time{
+    float: right;
+    font-weight: bolder;
+    /* background-color: rgb(43, 77, 9); */
+    color: white;
+    margin-top: 1px;
+    padding: 10px;
+    font-size: 24px;
+
+}
+#support{
+    position: relative;
+    /* padding-top: 600px; */
+    margin-top: 90px;
+    font-size: 30px;
+    background-color: turquoise;
+    width: 100%;
+    height: 200px;
+    background: url("media/ranurte-VPTSnznXtyQ-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+#change{
+    font-weight: bolder;
+}
+#mail{
+    background-color:black;
+    color: blanchedalmond;
+    border: 2px solid black;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 5px;
+    /* margin: 20px; */
+}
+footer{
+    position: relative;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 15px;
+}
+#contact{
+    display: flex;
+    background-color:black;
+    color: blanchedalmond;
+    border: 2px solid black;
+    opacity: 0.8;
+    border-radius: 20px;
+    font-weight: bolder;
+    padding: 30px;
+    font-size: 30px;
+}
